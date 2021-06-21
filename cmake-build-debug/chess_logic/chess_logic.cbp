@@ -5,7 +5,7 @@
 		<Option title="chess_logic"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\chess_logic\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt\;CMake Files\..\..\Qt\6.1.1\;CMake Files\..\..\Qt\6.1.1\gcc_64\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\3rdparty\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\3rdparty\kwin\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Core\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6CoreTools\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Gui\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6GuiTools\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Widgets\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6WidgetsTools\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\chess_logic\;CMake Files\view_qt\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt\;CMake Files\..\..\Qt\6.1.1\;CMake Files\..\..\Qt\6.1.1\gcc_64\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\3rdparty\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\3rdparty\kwin\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Core\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6CoreTools\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Gui\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6GuiTools\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Widgets\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6WidgetsTools\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic"/>
@@ -25,6 +25,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/eldarian/Документы/chess_qt/chess_logic"/>
+					<Add directory="/home/eldarian/Документы/chess_qt/view_qt"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -48,6 +49,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/eldarian/Документы/chess_qt/chess_logic"/>
+					<Add directory="/home/eldarian/Документы/chess_qt/view_qt"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -75,6 +77,9 @@
 		</Unit>
 		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\chess_logic\"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/view_qt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\view_qt\"/>
 		</Unit>
 		<Unit filename="/home/eldarian/Документы/chess_qt/../../Qt/6.1.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake">
 			<Option virtualFolder="CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\"/>

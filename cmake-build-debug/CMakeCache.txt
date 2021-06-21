@@ -304,6 +304,12 @@ chess_qt_BINARY_DIR:STATIC=/home/eldarian/Документы/chess_qt/cmake-buil
 //Value Computed by CMake
 chess_qt_SOURCE_DIR:STATIC=/home/eldarian/Документы/chess_qt
 
+//Value Computed by CMake
+view_qt_BINARY_DIR:STATIC=/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt
+
+//Value Computed by CMake
+view_qt_SOURCE_DIR:STATIC=/home/eldarian/Документы/chess_qt/view_qt
+
 
 ########################
 # INTERNAL cache entries
@@ -421,7 +427,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

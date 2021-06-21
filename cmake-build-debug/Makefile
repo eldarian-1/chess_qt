@@ -130,30 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named view_qt
+# Target rules for targets named chess_qt
 
 # Build rule for target.
-view_qt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 view_qt
-.PHONY : view_qt
+chess_qt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chess_qt
+.PHONY : chess_qt
 
 # fast build rule for target.
-view_qt/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/build
-.PHONY : view_qt/fast
-
-#=============================================================================
-# Target rules for targets named view_qt_autogen
-
-# Build rule for target.
-view_qt_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 view_qt_autogen
-.PHONY : view_qt_autogen
-
-# fast build rule for target.
-view_qt_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt_autogen.dir/build.make CMakeFiles/view_qt_autogen.dir/build
-.PHONY : view_qt_autogen/fast
+chess_qt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_qt.dir/build.make CMakeFiles/chess_qt.dir/build
+.PHONY : chess_qt/fast
 
 #=============================================================================
 # Target rules for targets named chess_logic
@@ -168,59 +155,58 @@ chess_logic/fast:
 	$(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/build
 .PHONY : chess_logic/fast
 
-view_qt/main.o: view_qt/main.cpp.o
+#=============================================================================
+# Target rules for targets named view_qt
 
-.PHONY : view_qt/main.o
+# Build rule for target.
+view_qt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 view_qt
+.PHONY : view_qt
+
+# fast build rule for target.
+view_qt/fast:
+	$(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt.dir/build.make view_qt/CMakeFiles/view_qt.dir/build
+.PHONY : view_qt/fast
+
+#=============================================================================
+# Target rules for targets named view_qt_autogen
+
+# Build rule for target.
+view_qt_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 view_qt_autogen
+.PHONY : view_qt_autogen
+
+# fast build rule for target.
+view_qt_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt_autogen.dir/build.make view_qt/CMakeFiles/view_qt_autogen.dir/build
+.PHONY : view_qt_autogen/fast
+
+main.o: main.cpp.o
+
+.PHONY : main.o
 
 # target to build an object file
-view_qt/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/main.cpp.o
-.PHONY : view_qt/main.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_qt.dir/build.make CMakeFiles/chess_qt.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-view_qt/main.i: view_qt/main.cpp.i
+main.i: main.cpp.i
 
-.PHONY : view_qt/main.i
-
-# target to preprocess a source file
-view_qt/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/main.cpp.i
-.PHONY : view_qt/main.cpp.i
-
-view_qt/main.s: view_qt/main.cpp.s
-
-.PHONY : view_qt/main.s
-
-# target to generate assembly for a file
-view_qt/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/main.cpp.s
-.PHONY : view_qt/main.cpp.s
-
-view_qt_autogen/mocs_compilation.o: view_qt_autogen/mocs_compilation.cpp.o
-
-.PHONY : view_qt_autogen/mocs_compilation.o
-
-# target to build an object file
-view_qt_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.o
-.PHONY : view_qt_autogen/mocs_compilation.cpp.o
-
-view_qt_autogen/mocs_compilation.i: view_qt_autogen/mocs_compilation.cpp.i
-
-.PHONY : view_qt_autogen/mocs_compilation.i
+.PHONY : main.i
 
 # target to preprocess a source file
-view_qt_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.i
-.PHONY : view_qt_autogen/mocs_compilation.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_qt.dir/build.make CMakeFiles/chess_qt.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-view_qt_autogen/mocs_compilation.s: view_qt_autogen/mocs_compilation.cpp.s
+main.s: main.cpp.s
 
-.PHONY : view_qt_autogen/mocs_compilation.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-view_qt_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.s
-.PHONY : view_qt_autogen/mocs_compilation.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_qt.dir/build.make CMakeFiles/chess_qt.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -232,13 +218,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... view_qt_autogen"
 	@echo "... chess_logic"
+	@echo "... chess_qt"
 	@echo "... view_qt"
-	@echo "... view_qt/main.o"
-	@echo "... view_qt/main.i"
-	@echo "... view_qt/main.s"
-	@echo "... view_qt_autogen/mocs_compilation.o"
-	@echo "... view_qt_autogen/mocs_compilation.i"
-	@echo "... view_qt_autogen/mocs_compilation.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

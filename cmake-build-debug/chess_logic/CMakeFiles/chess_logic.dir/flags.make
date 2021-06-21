@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/eldarian/Документы/chess_qt/chess_logic
+CXX_INCLUDES = -I/home/eldarian/Документы/chess_qt/chess_logic -I/home/eldarian/Документы/chess_qt/view_qt
 
 CXX_FLAGS = -g -std=gnu++2a
 
