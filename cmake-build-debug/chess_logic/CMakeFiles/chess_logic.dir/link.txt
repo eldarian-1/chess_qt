@@ -1,0 +1,2 @@
+/usr/bin/ar qc libchess_logic.a CMakeFiles/chess_logic.dir/a.cpp.o
+/usr/bin/ranlib libchess_logic.a

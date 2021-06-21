@@ -1,0 +1,7 @@
+/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/view_qt.dir
+/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/view_qt_autogen.dir
+/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/edit_cache.dir
+/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/rebuild_cache.dir
+/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir
