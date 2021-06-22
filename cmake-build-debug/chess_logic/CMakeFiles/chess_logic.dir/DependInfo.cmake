@@ -4,7 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/eldarian/Документы/chess_qt/chess_logic/a.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/a.cpp.o"
+  "/home/eldarian/Документы/chess_qt/chess_logic/Board.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/Board.cpp.o"
+  "/home/eldarian/Документы/chess_qt/chess_logic/Figure.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/Figure.cpp.o"
+  "/home/eldarian/Документы/chess_qt/chess_logic/FigureFactory.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/FigureFactory.cpp.o"
+  "/home/eldarian/Документы/chess_qt/chess_logic/Path.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/Path.cpp.o"
+  "/home/eldarian/Документы/chess_qt/chess_logic/figures/Bishop.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/figures/Bishop.cpp.o"
+  "/home/eldarian/Документы/chess_qt/chess_logic/figures/King.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/figures/King.cpp.o"
+  "/home/eldarian/Документы/chess_qt/chess_logic/figures/Knight.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/figures/Knight.cpp.o"
+  "/home/eldarian/Документы/chess_qt/chess_logic/figures/Pawn.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/figures/Pawn.cpp.o"
+  "/home/eldarian/Документы/chess_qt/chess_logic/figures/Queen.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/figures/Queen.cpp.o"
+  "/home/eldarian/Документы/chess_qt/chess_logic/figures/Rook.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/figures/Rook.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

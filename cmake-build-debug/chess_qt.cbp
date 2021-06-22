@@ -226,10 +226,64 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/a.cpp">
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/Board.cpp">
 			<Option target="chess_logic"/>
 		</Unit>
-		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/a.h">
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/Board.h">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/Figure.cpp">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/Figure.h">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/FigureFactory.cpp">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/FigureFactory.h">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/Path.cpp">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/Path.h">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/Bishop.cpp">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/Bishop.h">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/King.cpp">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/King.h">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/Knight.cpp">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/Knight.h">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/Pawn.cpp">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/Pawn.h">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/Queen.cpp">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/Queen.h">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/Rook.cpp">
+			<Option target="chess_logic"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/figures/Rook.h">
 			<Option target="chess_logic"/>
 		</Unit>
 		<Unit filename="/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/mocs_compilation.cpp">

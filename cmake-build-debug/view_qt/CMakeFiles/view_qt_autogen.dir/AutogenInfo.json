@@ -18,8 +18,6 @@
 		"/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/CheckIncludeFile.cmake",
 		"/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake",
 		"/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake",
-		"/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/CheckIncludeFile.c.in",
-		"/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/CheckForPthreads.c",
 		"/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake",
 		"/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/FindPackageMessage.cmake",
 		"/home/eldarian/Qt/6.1.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",

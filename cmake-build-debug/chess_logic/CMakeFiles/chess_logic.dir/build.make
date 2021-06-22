@@ -76,30 +76,165 @@ include chess_logic/CMakeFiles/chess_logic.dir/progress.make
 # Include the compile flags for this target's objects.
 include chess_logic/CMakeFiles/chess_logic.dir/flags.make
 
-chess_logic/CMakeFiles/chess_logic.dir/a.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
-chess_logic/CMakeFiles/chess_logic.dir/a.cpp.o: ../chess_logic/a.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/a.cpp.o"
-	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/a.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/a.cpp
+chess_logic/CMakeFiles/chess_logic.dir/Board.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
+chess_logic/CMakeFiles/chess_logic.dir/Board.cpp.o: ../chess_logic/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/Board.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/Board.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/Board.cpp
 
-chess_logic/CMakeFiles/chess_logic.dir/a.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/a.cpp.i"
-	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/a.cpp > CMakeFiles/chess_logic.dir/a.cpp.i
+chess_logic/CMakeFiles/chess_logic.dir/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/Board.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/Board.cpp > CMakeFiles/chess_logic.dir/Board.cpp.i
 
-chess_logic/CMakeFiles/chess_logic.dir/a.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/a.cpp.s"
-	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/a.cpp -o CMakeFiles/chess_logic.dir/a.cpp.s
+chess_logic/CMakeFiles/chess_logic.dir/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/Board.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/Board.cpp -o CMakeFiles/chess_logic.dir/Board.cpp.s
+
+chess_logic/CMakeFiles/chess_logic.dir/Figure.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
+chess_logic/CMakeFiles/chess_logic.dir/Figure.cpp.o: ../chess_logic/Figure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/Figure.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/Figure.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/Figure.cpp
+
+chess_logic/CMakeFiles/chess_logic.dir/Figure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/Figure.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/Figure.cpp > CMakeFiles/chess_logic.dir/Figure.cpp.i
+
+chess_logic/CMakeFiles/chess_logic.dir/Figure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/Figure.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/Figure.cpp -o CMakeFiles/chess_logic.dir/Figure.cpp.s
+
+chess_logic/CMakeFiles/chess_logic.dir/Path.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
+chess_logic/CMakeFiles/chess_logic.dir/Path.cpp.o: ../chess_logic/Path.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/Path.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/Path.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/Path.cpp
+
+chess_logic/CMakeFiles/chess_logic.dir/Path.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/Path.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/Path.cpp > CMakeFiles/chess_logic.dir/Path.cpp.i
+
+chess_logic/CMakeFiles/chess_logic.dir/Path.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/Path.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/Path.cpp -o CMakeFiles/chess_logic.dir/Path.cpp.s
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Bishop.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
+chess_logic/CMakeFiles/chess_logic.dir/figures/Bishop.cpp.o: ../chess_logic/figures/Bishop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/figures/Bishop.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/figures/Bishop.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/figures/Bishop.cpp
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Bishop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/figures/Bishop.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/figures/Bishop.cpp > CMakeFiles/chess_logic.dir/figures/Bishop.cpp.i
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Bishop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/figures/Bishop.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/figures/Bishop.cpp -o CMakeFiles/chess_logic.dir/figures/Bishop.cpp.s
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Pawn.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
+chess_logic/CMakeFiles/chess_logic.dir/figures/Pawn.cpp.o: ../chess_logic/figures/Pawn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/figures/Pawn.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/figures/Pawn.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/figures/Pawn.cpp
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Pawn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/figures/Pawn.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/figures/Pawn.cpp > CMakeFiles/chess_logic.dir/figures/Pawn.cpp.i
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Pawn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/figures/Pawn.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/figures/Pawn.cpp -o CMakeFiles/chess_logic.dir/figures/Pawn.cpp.s
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/King.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
+chess_logic/CMakeFiles/chess_logic.dir/figures/King.cpp.o: ../chess_logic/figures/King.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/figures/King.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/figures/King.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/figures/King.cpp
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/King.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/figures/King.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/figures/King.cpp > CMakeFiles/chess_logic.dir/figures/King.cpp.i
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/King.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/figures/King.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/figures/King.cpp -o CMakeFiles/chess_logic.dir/figures/King.cpp.s
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Rook.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
+chess_logic/CMakeFiles/chess_logic.dir/figures/Rook.cpp.o: ../chess_logic/figures/Rook.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/figures/Rook.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/figures/Rook.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/figures/Rook.cpp
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Rook.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/figures/Rook.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/figures/Rook.cpp > CMakeFiles/chess_logic.dir/figures/Rook.cpp.i
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Rook.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/figures/Rook.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/figures/Rook.cpp -o CMakeFiles/chess_logic.dir/figures/Rook.cpp.s
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Queen.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
+chess_logic/CMakeFiles/chess_logic.dir/figures/Queen.cpp.o: ../chess_logic/figures/Queen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/figures/Queen.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/figures/Queen.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/figures/Queen.cpp
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Queen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/figures/Queen.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/figures/Queen.cpp > CMakeFiles/chess_logic.dir/figures/Queen.cpp.i
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Queen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/figures/Queen.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/figures/Queen.cpp -o CMakeFiles/chess_logic.dir/figures/Queen.cpp.s
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Knight.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
+chess_logic/CMakeFiles/chess_logic.dir/figures/Knight.cpp.o: ../chess_logic/figures/Knight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/figures/Knight.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/figures/Knight.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/figures/Knight.cpp
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Knight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/figures/Knight.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/figures/Knight.cpp > CMakeFiles/chess_logic.dir/figures/Knight.cpp.i
+
+chess_logic/CMakeFiles/chess_logic.dir/figures/Knight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/figures/Knight.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/figures/Knight.cpp -o CMakeFiles/chess_logic.dir/figures/Knight.cpp.s
+
+chess_logic/CMakeFiles/chess_logic.dir/FigureFactory.cpp.o: chess_logic/CMakeFiles/chess_logic.dir/flags.make
+chess_logic/CMakeFiles/chess_logic.dir/FigureFactory.cpp.o: ../chess_logic/FigureFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object chess_logic/CMakeFiles/chess_logic.dir/FigureFactory.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_logic.dir/FigureFactory.cpp.o -c /home/eldarian/Документы/chess_qt/chess_logic/FigureFactory.cpp
+
+chess_logic/CMakeFiles/chess_logic.dir/FigureFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_logic.dir/FigureFactory.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/chess_logic/FigureFactory.cpp > CMakeFiles/chess_logic.dir/FigureFactory.cpp.i
+
+chess_logic/CMakeFiles/chess_logic.dir/FigureFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_logic.dir/FigureFactory.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/chess_logic/FigureFactory.cpp -o CMakeFiles/chess_logic.dir/FigureFactory.cpp.s
 
 # Object files for target chess_logic
 chess_logic_OBJECTS = \
-"CMakeFiles/chess_logic.dir/a.cpp.o"
+"CMakeFiles/chess_logic.dir/Board.cpp.o" \
+"CMakeFiles/chess_logic.dir/Figure.cpp.o" \
+"CMakeFiles/chess_logic.dir/Path.cpp.o" \
+"CMakeFiles/chess_logic.dir/figures/Bishop.cpp.o" \
+"CMakeFiles/chess_logic.dir/figures/Pawn.cpp.o" \
+"CMakeFiles/chess_logic.dir/figures/King.cpp.o" \
+"CMakeFiles/chess_logic.dir/figures/Rook.cpp.o" \
+"CMakeFiles/chess_logic.dir/figures/Queen.cpp.o" \
+"CMakeFiles/chess_logic.dir/figures/Knight.cpp.o" \
+"CMakeFiles/chess_logic.dir/FigureFactory.cpp.o"
 
 # External object files for target chess_logic
 chess_logic_EXTERNAL_OBJECTS =
 
-chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/a.cpp.o
+chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/Board.cpp.o
+chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/Figure.cpp.o
+chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/Path.cpp.o
+chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/figures/Bishop.cpp.o
+chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/figures/Pawn.cpp.o
+chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/figures/King.cpp.o
+chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/figures/Rook.cpp.o
+chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/figures/Queen.cpp.o
+chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/figures/Knight.cpp.o
+chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/FigureFactory.cpp.o
 chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/build.make
 chess_logic/libchess_logic.a: chess_logic/CMakeFiles/chess_logic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libchess_logic.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libchess_logic.a"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && $(CMAKE_COMMAND) -P CMakeFiles/chess_logic.dir/cmake_clean_target.cmake
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chess_logic.dir/link.txt --verbose=$(VERBOSE)
 

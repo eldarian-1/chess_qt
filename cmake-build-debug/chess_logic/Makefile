@@ -144,32 +144,275 @@ chess_logic/fast:
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/build
 .PHONY : chess_logic/fast
 
-a.o: a.cpp.o
+Board.o: Board.cpp.o
 
-.PHONY : a.o
+.PHONY : Board.o
 
 # target to build an object file
-a.cpp.o:
-	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/a.cpp.o
-.PHONY : a.cpp.o
+Board.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/Board.cpp.o
+.PHONY : Board.cpp.o
 
-a.i: a.cpp.i
+Board.i: Board.cpp.i
 
-.PHONY : a.i
+.PHONY : Board.i
 
 # target to preprocess a source file
-a.cpp.i:
-	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/a.cpp.i
-.PHONY : a.cpp.i
+Board.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/Board.cpp.i
+.PHONY : Board.cpp.i
 
-a.s: a.cpp.s
+Board.s: Board.cpp.s
 
-.PHONY : a.s
+.PHONY : Board.s
 
 # target to generate assembly for a file
-a.cpp.s:
-	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/a.cpp.s
-.PHONY : a.cpp.s
+Board.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/Board.cpp.s
+.PHONY : Board.cpp.s
+
+Figure.o: Figure.cpp.o
+
+.PHONY : Figure.o
+
+# target to build an object file
+Figure.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/Figure.cpp.o
+.PHONY : Figure.cpp.o
+
+Figure.i: Figure.cpp.i
+
+.PHONY : Figure.i
+
+# target to preprocess a source file
+Figure.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/Figure.cpp.i
+.PHONY : Figure.cpp.i
+
+Figure.s: Figure.cpp.s
+
+.PHONY : Figure.s
+
+# target to generate assembly for a file
+Figure.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/Figure.cpp.s
+.PHONY : Figure.cpp.s
+
+FigureFactory.o: FigureFactory.cpp.o
+
+.PHONY : FigureFactory.o
+
+# target to build an object file
+FigureFactory.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/FigureFactory.cpp.o
+.PHONY : FigureFactory.cpp.o
+
+FigureFactory.i: FigureFactory.cpp.i
+
+.PHONY : FigureFactory.i
+
+# target to preprocess a source file
+FigureFactory.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/FigureFactory.cpp.i
+.PHONY : FigureFactory.cpp.i
+
+FigureFactory.s: FigureFactory.cpp.s
+
+.PHONY : FigureFactory.s
+
+# target to generate assembly for a file
+FigureFactory.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/FigureFactory.cpp.s
+.PHONY : FigureFactory.cpp.s
+
+Path.o: Path.cpp.o
+
+.PHONY : Path.o
+
+# target to build an object file
+Path.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/Path.cpp.o
+.PHONY : Path.cpp.o
+
+Path.i: Path.cpp.i
+
+.PHONY : Path.i
+
+# target to preprocess a source file
+Path.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/Path.cpp.i
+.PHONY : Path.cpp.i
+
+Path.s: Path.cpp.s
+
+.PHONY : Path.s
+
+# target to generate assembly for a file
+Path.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/Path.cpp.s
+.PHONY : Path.cpp.s
+
+figures/Bishop.o: figures/Bishop.cpp.o
+
+.PHONY : figures/Bishop.o
+
+# target to build an object file
+figures/Bishop.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Bishop.cpp.o
+.PHONY : figures/Bishop.cpp.o
+
+figures/Bishop.i: figures/Bishop.cpp.i
+
+.PHONY : figures/Bishop.i
+
+# target to preprocess a source file
+figures/Bishop.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Bishop.cpp.i
+.PHONY : figures/Bishop.cpp.i
+
+figures/Bishop.s: figures/Bishop.cpp.s
+
+.PHONY : figures/Bishop.s
+
+# target to generate assembly for a file
+figures/Bishop.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Bishop.cpp.s
+.PHONY : figures/Bishop.cpp.s
+
+figures/King.o: figures/King.cpp.o
+
+.PHONY : figures/King.o
+
+# target to build an object file
+figures/King.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/King.cpp.o
+.PHONY : figures/King.cpp.o
+
+figures/King.i: figures/King.cpp.i
+
+.PHONY : figures/King.i
+
+# target to preprocess a source file
+figures/King.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/King.cpp.i
+.PHONY : figures/King.cpp.i
+
+figures/King.s: figures/King.cpp.s
+
+.PHONY : figures/King.s
+
+# target to generate assembly for a file
+figures/King.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/King.cpp.s
+.PHONY : figures/King.cpp.s
+
+figures/Knight.o: figures/Knight.cpp.o
+
+.PHONY : figures/Knight.o
+
+# target to build an object file
+figures/Knight.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Knight.cpp.o
+.PHONY : figures/Knight.cpp.o
+
+figures/Knight.i: figures/Knight.cpp.i
+
+.PHONY : figures/Knight.i
+
+# target to preprocess a source file
+figures/Knight.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Knight.cpp.i
+.PHONY : figures/Knight.cpp.i
+
+figures/Knight.s: figures/Knight.cpp.s
+
+.PHONY : figures/Knight.s
+
+# target to generate assembly for a file
+figures/Knight.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Knight.cpp.s
+.PHONY : figures/Knight.cpp.s
+
+figures/Pawn.o: figures/Pawn.cpp.o
+
+.PHONY : figures/Pawn.o
+
+# target to build an object file
+figures/Pawn.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Pawn.cpp.o
+.PHONY : figures/Pawn.cpp.o
+
+figures/Pawn.i: figures/Pawn.cpp.i
+
+.PHONY : figures/Pawn.i
+
+# target to preprocess a source file
+figures/Pawn.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Pawn.cpp.i
+.PHONY : figures/Pawn.cpp.i
+
+figures/Pawn.s: figures/Pawn.cpp.s
+
+.PHONY : figures/Pawn.s
+
+# target to generate assembly for a file
+figures/Pawn.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Pawn.cpp.s
+.PHONY : figures/Pawn.cpp.s
+
+figures/Queen.o: figures/Queen.cpp.o
+
+.PHONY : figures/Queen.o
+
+# target to build an object file
+figures/Queen.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Queen.cpp.o
+.PHONY : figures/Queen.cpp.o
+
+figures/Queen.i: figures/Queen.cpp.i
+
+.PHONY : figures/Queen.i
+
+# target to preprocess a source file
+figures/Queen.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Queen.cpp.i
+.PHONY : figures/Queen.cpp.i
+
+figures/Queen.s: figures/Queen.cpp.s
+
+.PHONY : figures/Queen.s
+
+# target to generate assembly for a file
+figures/Queen.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Queen.cpp.s
+.PHONY : figures/Queen.cpp.s
+
+figures/Rook.o: figures/Rook.cpp.o
+
+.PHONY : figures/Rook.o
+
+# target to build an object file
+figures/Rook.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Rook.cpp.o
+.PHONY : figures/Rook.cpp.o
+
+figures/Rook.i: figures/Rook.cpp.i
+
+.PHONY : figures/Rook.i
+
+# target to preprocess a source file
+figures/Rook.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Rook.cpp.i
+.PHONY : figures/Rook.cpp.i
+
+figures/Rook.s: figures/Rook.cpp.s
+
+.PHONY : figures/Rook.s
+
+# target to generate assembly for a file
+figures/Rook.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/figures/Rook.cpp.s
+.PHONY : figures/Rook.cpp.s
 
 # Help Target
 help:
@@ -180,9 +423,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... chess_logic"
-	@echo "... a.o"
-	@echo "... a.i"
-	@echo "... a.s"
+	@echo "... Board.o"
+	@echo "... Board.i"
+	@echo "... Board.s"
+	@echo "... Figure.o"
+	@echo "... Figure.i"
+	@echo "... Figure.s"
+	@echo "... FigureFactory.o"
+	@echo "... FigureFactory.i"
+	@echo "... FigureFactory.s"
+	@echo "... Path.o"
+	@echo "... Path.i"
+	@echo "... Path.s"
+	@echo "... figures/Bishop.o"
+	@echo "... figures/Bishop.i"
+	@echo "... figures/Bishop.s"
+	@echo "... figures/King.o"
+	@echo "... figures/King.i"
+	@echo "... figures/King.s"
+	@echo "... figures/Knight.o"
+	@echo "... figures/Knight.i"
+	@echo "... figures/Knight.s"
+	@echo "... figures/Pawn.o"
+	@echo "... figures/Pawn.i"
+	@echo "... figures/Pawn.s"
+	@echo "... figures/Queen.o"
+	@echo "... figures/Queen.i"
+	@echo "... figures/Queen.s"
+	@echo "... figures/Rook.o"
+	@echo "... figures/Rook.i"
+	@echo "... figures/Rook.s"
 .PHONY : help
 
 
