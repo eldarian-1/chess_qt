@@ -348,6 +348,33 @@ LSaveGame.cpp.s:
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt.dir/build.make view_qt/CMakeFiles/view_qt.dir/LSaveGame.cpp.s
 .PHONY : LSaveGame.cpp.s
 
+view_qt_autogen/EWIEGA46WW/qrc_resources.o: view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o
+
+.PHONY : view_qt_autogen/EWIEGA46WW/qrc_resources.o
+
+# target to build an object file
+view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt.dir/build.make view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o
+
+view_qt_autogen/EWIEGA46WW/qrc_resources.i: view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+.PHONY : view_qt_autogen/EWIEGA46WW/qrc_resources.i
+
+# target to preprocess a source file
+view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt.dir/build.make view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+view_qt_autogen/EWIEGA46WW/qrc_resources.s: view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
+.PHONY : view_qt_autogen/EWIEGA46WW/qrc_resources.s
+
+# target to generate assembly for a file
+view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt.dir/build.make view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
 view_qt_autogen/mocs_compilation.o: view_qt_autogen/mocs_compilation.cpp.o
 
 .PHONY : view_qt_autogen/mocs_compilation.o
@@ -406,6 +433,9 @@ help:
 	@echo "... LSaveGame.o"
 	@echo "... LSaveGame.i"
 	@echo "... LSaveGame.s"
+	@echo "... view_qt_autogen/EWIEGA46WW/qrc_resources.o"
+	@echo "... view_qt_autogen/EWIEGA46WW/qrc_resources.i"
+	@echo "... view_qt_autogen/EWIEGA46WW/qrc_resources.s"
 	@echo "... view_qt_autogen/mocs_compilation.o"
 	@echo "... view_qt_autogen/mocs_compilation.i"
 	@echo "... view_qt_autogen/mocs_compilation.s"

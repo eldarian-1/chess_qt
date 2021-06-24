@@ -11,7 +11,7 @@ set(QT_VERSION 6)
 set(REQUIRED_LIBS Core Gui Widgets)
 set(REQUIRED_LIBS_QUALIFIED Qt6::Core Qt6::Gui Qt6::Widgets)
 
-set(VIEW_QT ChessView.cpp LConfirm.cpp LDesk.cpp LLoadGame.cpp LMain.cpp LOptions.cpp LSaveGame.cpp)
+set(VIEW_QT ChessView.cpp LConfirm.cpp LDesk.cpp LLoadGame.cpp LMain.cpp LOptions.cpp LSaveGame.cpp resources.qrc)
 
 add_library(view_qt STATIC ${VIEW_QT})
 

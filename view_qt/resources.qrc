@@ -1,0 +1,18 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file alias="LWRook.png">images/LWRook.png</file>
+        <file alias="LWQueen.png">images/LWQueen.png</file>
+        <file alias="LWPawn.png">images/LWPawn.png</file>
+        <file alias="LWKing.png">images/LWKing.png</file>
+        <file alias="LWHorse.png">images/LWHorse.png</file>
+        <file alias="LWElephant.png">images/LWElephant.png</file>
+        <file alias="LBRook.png">images/LBRook.png</file>
+        <file alias="LBQueen.png">images/LBQueen.png</file>
+        <file alias="LBPawn.png">images/LBPawn.png</file>
+        <file alias="LBKing.png">images/LBKing.png</file>
+        <file alias="LBHorse.png">images/LBHorse.png</file>
+        <file alias="LBElephant.png">images/LBElephant.png</file>
+        <file alias="PreView.png">images/PreView.png</file>
+    </qresource>
+</RCC>

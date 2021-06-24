@@ -1,9 +1,6 @@
 /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/chess_qt.dir
-/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/edit_cache.dir
-/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/rebuild_cache.dir
-/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir
 /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/rebuild_cache.dir
 /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/edit_cache.dir
 /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/view_qt.dir

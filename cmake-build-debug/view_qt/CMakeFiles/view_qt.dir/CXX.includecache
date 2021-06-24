@@ -932,11 +932,7 @@ stdlib.h
 QtCore/qglobal.h
 -
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/QFontMetrics
-qfontmetrics.h
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/qfontmetrics.h
-
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/QPaintEvent
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/QMouseEvent
 qevent.h
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/qevent.h
 
@@ -944,9 +940,9 @@ qevent.h
 qpainter.h
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/qpainter.h
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/QResizeEvent
-qevent.h
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/qevent.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/QPalette
+qpalette.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/qpalette.h
 
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/QTransform
 qtransform.h
@@ -1198,18 +1194,6 @@ QtGui/qcolor.h
 QtGui/qbrush.h
 -
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/qpicture.h
-QtGui/qtguiglobal.h
--
-QtCore/qiodevice.h
--
-QtCore/qstringlist.h
--
-QtCore/qsharedpointer.h
--
-QtGui/qpaintdevice.h
--
-
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtGui/qpixelformat.h
 QtGui/qtguiglobal.h
 -
@@ -1414,29 +1398,25 @@ qapplication.h
 qdialog.h
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qdialog.h
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QGroupBox
-qgroupbox.h
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qgroupbox.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QHBoxLayout
+qboxlayout.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qboxlayout.h
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QLabel
-qlabel.h
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qlabel.h
-
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QLineEdit
-qlineedit.h
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qlineedit.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QMessageBox
+qmessagebox.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qmessagebox.h
 
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QPushButton
 qpushbutton.h
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qpushbutton.h
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QRadioButton
-qradiobutton.h
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qradiobutton.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QScrollBar
+qscrollbar.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qscrollbar.h
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QStyle
-qstyle.h
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qstyle.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QTextEdit
+qtextedit.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qtextedit.h
 
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/QVBoxLayout
 qboxlayout.h
@@ -1452,6 +1432,18 @@ QtWidgets/qtwidgetsglobal.h
 QtGui/qicon.h
 -
 QtGui/qkeysequence.h
+-
+QtWidgets/qwidget.h
+-
+
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qabstractscrollarea.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
+-
+
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qabstractslider.h
+QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
@@ -1504,22 +1496,6 @@ QtWidgets/qwidget.h
 limits.h
 -
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qgroupbox.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qframe.h
--
-
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qlabel.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qframe.h
--
-QtGui/qpicture.h
--
-QtGui/qtextdocument.h
--
-
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1550,16 +1526,10 @@ QtCore/qrect.h
 limits.h
 -
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qlineedit.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qmessagebox.h
 QtWidgets/qtwidgetsglobal.h
 -
-QtWidgets/qframe.h
--
-QtGui/qtextcursor.h
--
-QtCore/qstring.h
--
-QtCore/qmargins.h
+QtWidgets/qdialog.h
 -
 
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qpushbutton.h
@@ -1568,10 +1538,12 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qabstractbutton.h
 -
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qradiobutton.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qscrollbar.h
 QtWidgets/qtwidgetsglobal.h
 -
-QtWidgets/qabstractbutton.h
+QtWidgets/qwidget.h
+-
+QtWidgets/qabstractslider.h
 -
 
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qsizepolicy.h
@@ -1582,22 +1554,18 @@ QtCore/qobject.h
 QtCore/qalgorithms.h
 -
 
-/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qstyle.h
+/home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qtextedit.h
 QtWidgets/qtwidgetsglobal.h
 -
-QtCore/qobject.h
+QtWidgets/qabstractscrollarea.h
 -
-QtCore/qrect.h
+QtGui/qtextdocument.h
 -
-QtCore/qsize.h
+QtGui/qtextoption.h
 -
-QtGui/qicon.h
+QtGui/qtextcursor.h
 -
-QtGui/qpixmap.h
--
-QtGui/qpalette.h
--
-QtWidgets/qsizepolicy.h
+QtGui/qtextformat.h
 -
 
 /home/eldarian/Qt/6.1.1/gcc_64/include/QtWidgets/qtwidgets-config.h
@@ -1640,55 +1608,61 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
-/home/eldarian/Документы/chess_qt/view_qt/LConst.h
-
-/home/eldarian/Документы/chess_qt/view_qt/LDesk.cpp
-LDesk.h
-/home/eldarian/Документы/chess_qt/view_qt/LDesk.h
-LConst.h
-/home/eldarian/Документы/chess_qt/view_qt/LConst.h
-LPlayer.h
-/home/eldarian/Документы/chess_qt/view_qt/LPlayer.h
-LSquare.h
-/home/eldarian/Документы/chess_qt/view_qt/LSquare.h
-LFigure.h
-/home/eldarian/Документы/chess_qt/view_qt/LFigure.h
-QPainter
--
-QPaintEvent
--
-QResizeEvent
--
-QFontMetrics
+/home/eldarian/Документы/chess_qt/view_qt/LConfirm.h
+QDialog
 -
 
 /home/eldarian/Документы/chess_qt/view_qt/LDesk.h
 QWidget
 -
 
-/home/eldarian/Документы/chess_qt/view_qt/LOptions.cpp
+/home/eldarian/Документы/chess_qt/view_qt/LLoadGame.h
+QDialog
+-
+
+/home/eldarian/Документы/chess_qt/view_qt/LMain.cpp
+LMain.h
+/home/eldarian/Документы/chess_qt/view_qt/LMain.h
+LDesk.h
+/home/eldarian/Документы/chess_qt/view_qt/LDesk.h
+LConfirm.h
+/home/eldarian/Документы/chess_qt/view_qt/LConfirm.h
+LLoadGame.h
+/home/eldarian/Документы/chess_qt/view_qt/LLoadGame.h
+LSaveGame.h
+/home/eldarian/Документы/chess_qt/view_qt/LSaveGame.h
 LOptions.h
 /home/eldarian/Документы/chess_qt/view_qt/LOptions.h
-LConst.h
-/home/eldarian/Документы/chess_qt/view_qt/LConst.h
 QApplication
 -
-QStyle
+QPalette
+-
+QPainter
+-
+QMouseEvent
+-
+QMessageBox
+-
+QScrollBar
+-
+QHBoxLayout
 -
 QVBoxLayout
 -
-QLabel
--
-QLineEdit
--
-QGroupBox
--
-QRadioButton
--
 QPushButton
+-
+QTextEdit
+-
+
+/home/eldarian/Документы/chess_qt/view_qt/LMain.h
+QWidget
 -
 
 /home/eldarian/Документы/chess_qt/view_qt/LOptions.h
+QDialog
+-
+
+/home/eldarian/Документы/chess_qt/view_qt/LSaveGame.h
 QDialog
 -
 

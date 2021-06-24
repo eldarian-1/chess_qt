@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/eldarian/Документы/chess_qt/view_qt/LMain.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/view_qt.dir/LMain.cpp.o"
   "/home/eldarian/Документы/chess_qt/view_qt/LOptions.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/view_qt.dir/LOptions.cpp.o"
   "/home/eldarian/Документы/chess_qt/view_qt/LSaveGame.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/view_qt.dir/LSaveGame.cpp.o"
+  "/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o"
   "/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/mocs_compilation.cpp" "/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -25,7 +26,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "view_qt/view_qt_autogen/include"
-  "../chess_logic"
   "../view_qt"
   "/home/eldarian/Qt/6.1.1/gcc_64/include/QtCore"
   "/home/eldarian/Qt/6.1.1/gcc_64/include"

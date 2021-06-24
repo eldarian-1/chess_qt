@@ -99,7 +99,6 @@ chess_qt_EXTERNAL_OBJECTS =
 chess_qt: CMakeFiles/chess_qt.dir/main.cpp.o
 chess_qt: CMakeFiles/chess_qt.dir/build.make
 chess_qt: view_qt/libview_qt.a
-chess_qt: chess_logic/libchess_logic.a
 chess_qt: /home/eldarian/Qt/6.1.1/gcc_64/lib/libQt6Widgets.so.6.1.1
 chess_qt: /home/eldarian/Qt/6.1.1/gcc_64/lib/libQt6Gui.so.6.1.1
 chess_qt: /home/eldarian/Qt/6.1.1/gcc_64/lib/libQt6Core.so.6.1.1

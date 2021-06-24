@@ -63,11 +63,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/eldarian/Qt/6.1.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake"
   "/home/eldarian/Qt/6.1.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake"
   "../CMakeLists.txt"
-  "../chess_logic/CMakeLists.txt"
   "CMakeFiles/3.19.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeSystem.cmake"
   "../view_qt/CMakeLists.txt"
+  "../view_qt/resources.qrc"
   "/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCInformation.cmake"
   "/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXInformation.cmake"
   "/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -116,15 +116,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "chess_logic/CMakeFiles/CMakeDirectoryInformation.cmake"
   "view_qt/CMakeFiles/view_qt_autogen.dir/AutogenInfo.json"
+  "view_qt/CMakeFiles/view_qt_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json"
   "view_qt/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/chess_qt.dir/DependInfo.cmake"
-  "chess_logic/CMakeFiles/chess_logic.dir/DependInfo.cmake"
   "view_qt/CMakeFiles/view_qt.dir/DependInfo.cmake"
   "view_qt/CMakeFiles/view_qt_autogen.dir/DependInfo.cmake"
   )

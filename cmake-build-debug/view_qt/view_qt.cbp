@@ -5,7 +5,7 @@
 		<Option title="view_qt"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\chess_logic\;CMake Files\view_qt\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt\;CMake Files\..\..\Qt\6.1.1\;CMake Files\..\..\Qt\6.1.1\gcc_64\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\3rdparty\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\3rdparty\kwin\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Core\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6CoreTools\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Gui\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6GuiTools\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Widgets\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6WidgetsTools\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\view_qt\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt\;CMake Files\..\..\Qt\6.1.1\;CMake Files\..\..\Qt\6.1.1\gcc_64\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\3rdparty\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6\3rdparty\kwin\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Core\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6CoreTools\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Gui\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6GuiTools\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6Widgets\;CMake Files\..\..\Qt\6.1.1\gcc_64\lib\cmake\Qt6WidgetsTools\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt"/>
@@ -28,7 +28,6 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add directory="/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/include"/>
-					<Add directory="/home/eldarian/Документы/chess_qt/chess_logic"/>
 					<Add directory="/home/eldarian/Документы/chess_qt/view_qt"/>
 					<Add directory="/home/eldarian/Qt/6.1.1/gcc_64/include/QtCore"/>
 					<Add directory="/home/eldarian/Qt/6.1.1/gcc_64/include"/>
@@ -61,7 +60,6 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add directory="/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/include"/>
-					<Add directory="/home/eldarian/Документы/chess_qt/chess_logic"/>
 					<Add directory="/home/eldarian/Документы/chess_qt/view_qt"/>
 					<Add directory="/home/eldarian/Qt/6.1.1/gcc_64/include/QtCore"/>
 					<Add directory="/home/eldarian/Qt/6.1.1/gcc_64/include"/>
@@ -94,6 +92,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp">
+			<Option target="view_qt"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.rule">
+			<Option target="view_qt"/>
+		</Unit>
 		<Unit filename="/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/mocs_compilation.cpp">
 			<Option target="view_qt"/>
 		</Unit>
@@ -139,13 +143,16 @@
 		<Unit filename="/home/eldarian/Документы/chess_qt/view_qt/LSaveGame.h">
 			<Option target="view_qt"/>
 		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/view_qt/resources.qrc">
+			<Option target="view_qt"/>
+		</Unit>
 		<Unit filename="/home/eldarian/Документы/chess_qt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/eldarian/Документы/chess_qt/chess_logic/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\chess_logic\"/>
-		</Unit>
 		<Unit filename="/home/eldarian/Документы/chess_qt/view_qt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\view_qt\"/>
+		</Unit>
+		<Unit filename="/home/eldarian/Документы/chess_qt/view_qt/resources.qrc">
 			<Option virtualFolder="CMake Files\view_qt\"/>
 		</Unit>
 		<Unit filename="/home/eldarian/Документы/chess_qt/../../Qt/6.1.1/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake">

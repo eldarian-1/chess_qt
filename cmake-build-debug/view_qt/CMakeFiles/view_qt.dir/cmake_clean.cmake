@@ -9,9 +9,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/view_qt.dir/LMain.cpp.o"
   "CMakeFiles/view_qt.dir/LOptions.cpp.o"
   "CMakeFiles/view_qt.dir/LSaveGame.cpp.o"
+  "CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o"
   "CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.o"
   "libview_qt.a"
   "libview_qt.pdb"
+  "view_qt_autogen/EWIEGA46WW/qrc_resources.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

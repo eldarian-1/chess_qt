@@ -142,7 +142,8 @@
 		"/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/CMakeParseArguments.cmake",
 		"/home/eldarian/Qt/6.1.1/gcc_64/lib/cmake/Qt6/QtFeature.cmake",
 		"/home/eldarian/Qt/6.1.1/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
-		"/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/CheckCXXCompilerFlag.cmake"
+		"/opt/clion/bin/cmake/linux/share/cmake-3.19/Modules/CheckCXXCompilerFlag.cmake",
+		"/home/eldarian/Документы/chess_qt/view_qt/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/eldarian/Документы/chess_qt",
 	"DEP_FILE" : "",
@@ -198,7 +199,6 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/eldarian/Документы/chess_qt/chess_logic",
 		"/home/eldarian/Документы/chess_qt/view_qt",
 		"/home/eldarian/Qt/6.1.1/gcc_64/include/QtCore",
 		"/home/eldarian/Qt/6.1.1/gcc_64/include",

@@ -21,6 +21,8 @@
 #include <QPushButton>
 #include <QTextEdit>
 
+#include <QResource>
+
 LMain* LMain::instance = nullptr;
 
 struct LMainPrivate
@@ -50,7 +52,7 @@ LMainPrivate::LMainPrivate(LMain* wgtMain)
 	game(nullptr),
 	lytMain(new QHBoxLayout),
 	lytMenu(new QVBoxLayout),
-	btnNewGame(new QPushButton(QIcon(":/LBQueen.png"), "New Game")),
+	btnNewGame(new QPushButton(QIcon(QResource("resources.qrc").), "New Game")),
 	btnSaveGame(new QPushButton(QIcon(":/LBElephant.png"), "Save Game")),
 	btnLoadGame(new QPushButton(QIcon(":/LBHorse.png"), "Load Game")),
 	btnOptions(new QPushButton(QIcon(":/LBRook.png"), "Options")),

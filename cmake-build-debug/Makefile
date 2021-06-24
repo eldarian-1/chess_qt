@@ -143,19 +143,6 @@ chess_qt/fast:
 .PHONY : chess_qt/fast
 
 #=============================================================================
-# Target rules for targets named chess_logic
-
-# Build rule for target.
-chess_logic: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chess_logic
-.PHONY : chess_logic
-
-# fast build rule for target.
-chess_logic/fast:
-	$(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/build
-.PHONY : chess_logic/fast
-
-#=============================================================================
 # Target rules for targets named view_qt
 
 # Build rule for target.
@@ -217,7 +204,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... view_qt_autogen"
-	@echo "... chess_logic"
 	@echo "... chess_qt"
 	@echo "... view_qt"
 	@echo "... main.o"

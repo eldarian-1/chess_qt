@@ -73,41 +73,20 @@ CMAKE_BINARY_DIR = /home/eldarian/Документы/chess_qt/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/chess_qt.dir/all
-all: chess_logic/all
 all: view_qt/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: chess_logic/preinstall
 preinstall: view_qt/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/chess_qt.dir/clean
-clean: chess_logic/clean
 clean: view_qt/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory chess_logic
-
-# Recursive "all" directory target.
-chess_logic/all: chess_logic/CMakeFiles/chess_logic.dir/all
-
-.PHONY : chess_logic/all
-
-# Recursive "preinstall" directory target.
-chess_logic/preinstall:
-
-.PHONY : chess_logic/preinstall
-
-# Recursive "clean" directory target.
-chess_logic/clean: chess_logic/CMakeFiles/chess_logic.dir/clean
-
-.PHONY : chess_logic/clean
 
 #=============================================================================
 # Directory level rules for directory view_qt
@@ -132,16 +111,15 @@ view_qt/clean: view_qt/CMakeFiles/view_qt_autogen.dir/clean
 # Target rules for target CMakeFiles/chess_qt.dir
 
 # All Build rule for target.
-CMakeFiles/chess_qt.dir/all: chess_logic/CMakeFiles/chess_logic.dir/all
 CMakeFiles/chess_qt.dir/all: view_qt/CMakeFiles/view_qt.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_qt.dir/build.make CMakeFiles/chess_qt.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_qt.dir/build.make CMakeFiles/chess_qt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target chess_qt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target chess_qt"
 .PHONY : CMakeFiles/chess_qt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/chess_qt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/chess_qt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/chess_qt.dir/rule
@@ -157,45 +135,18 @@ CMakeFiles/chess_qt.dir/clean:
 .PHONY : CMakeFiles/chess_qt.dir/clean
 
 #=============================================================================
-# Target rules for target chess_logic/CMakeFiles/chess_logic.dir
-
-# All Build rule for target.
-chess_logic/CMakeFiles/chess_logic.dir/all:
-	$(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/depend
-	$(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target chess_logic"
-.PHONY : chess_logic/CMakeFiles/chess_logic.dir/all
-
-# Build rule for subdir invocation for target.
-chess_logic/CMakeFiles/chess_logic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chess_logic/CMakeFiles/chess_logic.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles 0
-.PHONY : chess_logic/CMakeFiles/chess_logic.dir/rule
-
-# Convenience name for target.
-chess_logic: chess_logic/CMakeFiles/chess_logic.dir/rule
-
-.PHONY : chess_logic
-
-# clean rule for target.
-chess_logic/CMakeFiles/chess_logic.dir/clean:
-	$(MAKE) $(MAKESILENT) -f chess_logic/CMakeFiles/chess_logic.dir/build.make chess_logic/CMakeFiles/chess_logic.dir/clean
-.PHONY : chess_logic/CMakeFiles/chess_logic.dir/clean
-
-#=============================================================================
 # Target rules for target view_qt/CMakeFiles/view_qt.dir
 
 # All Build rule for target.
 view_qt/CMakeFiles/view_qt.dir/all: view_qt/CMakeFiles/view_qt_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt.dir/build.make view_qt/CMakeFiles/view_qt.dir/depend
 	$(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt.dir/build.make view_qt/CMakeFiles/view_qt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22 "Built target view_qt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13 "Built target view_qt"
 .PHONY : view_qt/CMakeFiles/view_qt.dir/all
 
 # Build rule for subdir invocation for target.
 view_qt/CMakeFiles/view_qt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 view_qt/CMakeFiles/view_qt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles 0
 .PHONY : view_qt/CMakeFiles/view_qt.dir/rule
@@ -217,7 +168,7 @@ view_qt/CMakeFiles/view_qt.dir/clean:
 view_qt/CMakeFiles/view_qt_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt_autogen.dir/build.make view_qt/CMakeFiles/view_qt_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt_autogen.dir/build.make view_qt/CMakeFiles/view_qt_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=23 "Built target view_qt_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=14 "Built target view_qt_autogen"
 .PHONY : view_qt/CMakeFiles/view_qt_autogen.dir/all
 
 # Build rule for subdir invocation for target.

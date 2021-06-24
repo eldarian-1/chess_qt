@@ -17,7 +17,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../chess_logic"
   "../view_qt"
   "/home/eldarian/Qt/6.1.1/gcc_64/include/QtCore"
   "/home/eldarian/Qt/6.1.1/gcc_64/include"
@@ -29,7 +28,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/view_qt.dir/DependInfo.cmake"
-  "/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/CMakeFiles/chess_logic.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -44,11 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/eldarian/Документы/chess_qt/cmake-build-debug/chess_logic/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/cmake_install.cmake")
 endif()
 

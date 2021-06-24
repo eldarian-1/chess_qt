@@ -76,9 +76,28 @@ include view_qt/CMakeFiles/view_qt.dir/progress.make
 # Include the compile flags for this target's objects.
 include view_qt/CMakeFiles/view_qt.dir/flags.make
 
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/resources.qrc
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: view_qt/CMakeFiles/view_qt_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/PreView.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LWElephant.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LBRook.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LWRook.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LWQueen.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LWHorse.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LBKing.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LBQueen.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LBPawn.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LBElephant.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LBHorse.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LWPawn.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: ../view_qt/images/LWKing.png
+view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp: /home/eldarian/Qt/6.1.1/gcc_64/./libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources.qrc"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /opt/clion/bin/cmake/linux/bin/cmake -E cmake_autorcc /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/view_qt_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug
+
 view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.o: view_qt/CMakeFiles/view_qt.dir/flags.make
 view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.o: view_qt/view_qt_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.o"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.o -c /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/mocs_compilation.cpp
 
 view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.i: cmake_force
@@ -91,7 +110,7 @@ view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.s: cmake_for
 
 view_qt/CMakeFiles/view_qt.dir/ChessView.cpp.o: view_qt/CMakeFiles/view_qt.dir/flags.make
 view_qt/CMakeFiles/view_qt.dir/ChessView.cpp.o: ../view_qt/ChessView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object view_qt/CMakeFiles/view_qt.dir/ChessView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object view_qt/CMakeFiles/view_qt.dir/ChessView.cpp.o"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/view_qt.dir/ChessView.cpp.o -c /home/eldarian/Документы/chess_qt/view_qt/ChessView.cpp
 
 view_qt/CMakeFiles/view_qt.dir/ChessView.cpp.i: cmake_force
@@ -104,7 +123,7 @@ view_qt/CMakeFiles/view_qt.dir/ChessView.cpp.s: cmake_force
 
 view_qt/CMakeFiles/view_qt.dir/LConfirm.cpp.o: view_qt/CMakeFiles/view_qt.dir/flags.make
 view_qt/CMakeFiles/view_qt.dir/LConfirm.cpp.o: ../view_qt/LConfirm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LConfirm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LConfirm.cpp.o"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/view_qt.dir/LConfirm.cpp.o -c /home/eldarian/Документы/chess_qt/view_qt/LConfirm.cpp
 
 view_qt/CMakeFiles/view_qt.dir/LConfirm.cpp.i: cmake_force
@@ -117,7 +136,7 @@ view_qt/CMakeFiles/view_qt.dir/LConfirm.cpp.s: cmake_force
 
 view_qt/CMakeFiles/view_qt.dir/LDesk.cpp.o: view_qt/CMakeFiles/view_qt.dir/flags.make
 view_qt/CMakeFiles/view_qt.dir/LDesk.cpp.o: ../view_qt/LDesk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LDesk.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LDesk.cpp.o"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/view_qt.dir/LDesk.cpp.o -c /home/eldarian/Документы/chess_qt/view_qt/LDesk.cpp
 
 view_qt/CMakeFiles/view_qt.dir/LDesk.cpp.i: cmake_force
@@ -130,7 +149,7 @@ view_qt/CMakeFiles/view_qt.dir/LDesk.cpp.s: cmake_force
 
 view_qt/CMakeFiles/view_qt.dir/LLoadGame.cpp.o: view_qt/CMakeFiles/view_qt.dir/flags.make
 view_qt/CMakeFiles/view_qt.dir/LLoadGame.cpp.o: ../view_qt/LLoadGame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LLoadGame.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LLoadGame.cpp.o"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/view_qt.dir/LLoadGame.cpp.o -c /home/eldarian/Документы/chess_qt/view_qt/LLoadGame.cpp
 
 view_qt/CMakeFiles/view_qt.dir/LLoadGame.cpp.i: cmake_force
@@ -143,7 +162,7 @@ view_qt/CMakeFiles/view_qt.dir/LLoadGame.cpp.s: cmake_force
 
 view_qt/CMakeFiles/view_qt.dir/LMain.cpp.o: view_qt/CMakeFiles/view_qt.dir/flags.make
 view_qt/CMakeFiles/view_qt.dir/LMain.cpp.o: ../view_qt/LMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LMain.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LMain.cpp.o"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/view_qt.dir/LMain.cpp.o -c /home/eldarian/Документы/chess_qt/view_qt/LMain.cpp
 
 view_qt/CMakeFiles/view_qt.dir/LMain.cpp.i: cmake_force
@@ -156,7 +175,7 @@ view_qt/CMakeFiles/view_qt.dir/LMain.cpp.s: cmake_force
 
 view_qt/CMakeFiles/view_qt.dir/LOptions.cpp.o: view_qt/CMakeFiles/view_qt.dir/flags.make
 view_qt/CMakeFiles/view_qt.dir/LOptions.cpp.o: ../view_qt/LOptions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LOptions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LOptions.cpp.o"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/view_qt.dir/LOptions.cpp.o -c /home/eldarian/Документы/chess_qt/view_qt/LOptions.cpp
 
 view_qt/CMakeFiles/view_qt.dir/LOptions.cpp.i: cmake_force
@@ -169,7 +188,7 @@ view_qt/CMakeFiles/view_qt.dir/LOptions.cpp.s: cmake_force
 
 view_qt/CMakeFiles/view_qt.dir/LSaveGame.cpp.o: view_qt/CMakeFiles/view_qt.dir/flags.make
 view_qt/CMakeFiles/view_qt.dir/LSaveGame.cpp.o: ../view_qt/LSaveGame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LSaveGame.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object view_qt/CMakeFiles/view_qt.dir/LSaveGame.cpp.o"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/view_qt.dir/LSaveGame.cpp.o -c /home/eldarian/Документы/chess_qt/view_qt/LSaveGame.cpp
 
 view_qt/CMakeFiles/view_qt.dir/LSaveGame.cpp.i: cmake_force
@@ -180,6 +199,19 @@ view_qt/CMakeFiles/view_qt.dir/LSaveGame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/view_qt.dir/LSaveGame.cpp.s"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/view_qt/LSaveGame.cpp -o CMakeFiles/view_qt.dir/LSaveGame.cpp.s
 
+view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o: view_qt/CMakeFiles/view_qt.dir/flags.make
+view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o: view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp
+
+view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp > CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s"
+	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp -o CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
 # Object files for target view_qt
 view_qt_OBJECTS = \
 "CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.o" \
@@ -189,7 +221,8 @@ view_qt_OBJECTS = \
 "CMakeFiles/view_qt.dir/LLoadGame.cpp.o" \
 "CMakeFiles/view_qt.dir/LMain.cpp.o" \
 "CMakeFiles/view_qt.dir/LOptions.cpp.o" \
-"CMakeFiles/view_qt.dir/LSaveGame.cpp.o"
+"CMakeFiles/view_qt.dir/LSaveGame.cpp.o" \
+"CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 
 # External object files for target view_qt
 view_qt_EXTERNAL_OBJECTS =
@@ -202,9 +235,10 @@ view_qt/libview_qt.a: view_qt/CMakeFiles/view_qt.dir/LLoadGame.cpp.o
 view_qt/libview_qt.a: view_qt/CMakeFiles/view_qt.dir/LMain.cpp.o
 view_qt/libview_qt.a: view_qt/CMakeFiles/view_qt.dir/LOptions.cpp.o
 view_qt/libview_qt.a: view_qt/CMakeFiles/view_qt.dir/LSaveGame.cpp.o
+view_qt/libview_qt.a: view_qt/CMakeFiles/view_qt.dir/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp.o
 view_qt/libview_qt.a: view_qt/CMakeFiles/view_qt.dir/build.make
 view_qt/libview_qt.a: view_qt/CMakeFiles/view_qt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libview_qt.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libview_qt.a"
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && $(CMAKE_COMMAND) -P CMakeFiles/view_qt.dir/cmake_clean_target.cmake
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/view_qt.dir/link.txt --verbose=$(VERBOSE)
 
@@ -217,7 +251,7 @@ view_qt/CMakeFiles/view_qt.dir/clean:
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt && $(CMAKE_COMMAND) -P CMakeFiles/view_qt.dir/cmake_clean.cmake
 .PHONY : view_qt/CMakeFiles/view_qt.dir/clean
 
-view_qt/CMakeFiles/view_qt.dir/depend:
+view_qt/CMakeFiles/view_qt.dir/depend: view_qt/view_qt_autogen/EWIEGA46WW/qrc_resources.cpp
 	cd /home/eldarian/Документы/chess_qt/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eldarian/Документы/chess_qt /home/eldarian/Документы/chess_qt/view_qt /home/eldarian/Документы/chess_qt/cmake-build-debug /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt /home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt/CMakeFiles/view_qt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : view_qt/CMakeFiles/view_qt.dir/depend
 
