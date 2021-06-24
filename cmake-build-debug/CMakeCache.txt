@@ -156,7 +156,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=chess_qt
+CMAKE_PROJECT_NAME:STATIC=view_qt
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -293,16 +293,10 @@ XKB_INCLUDE_DIR:PATH=XKB_INCLUDE_DIR-NOTFOUND
 XKB_LIBRARY:FILEPATH=XKB_LIBRARY-NOTFOUND
 
 //Value Computed by CMake
-chess_qt_BINARY_DIR:STATIC=/home/eldarian/Документы/chess_qt/cmake-build-debug
+view_qt_BINARY_DIR:STATIC=/home/eldarian/Документы/chess_qt/cmake-build-debug
 
 //Value Computed by CMake
-chess_qt_SOURCE_DIR:STATIC=/home/eldarian/Документы/chess_qt
-
-//Value Computed by CMake
-view_qt_BINARY_DIR:STATIC=/home/eldarian/Документы/chess_qt/cmake-build-debug/view_qt
-
-//Value Computed by CMake
-view_qt_SOURCE_DIR:STATIC=/home/eldarian/Документы/chess_qt/view_qt
+view_qt_SOURCE_DIR:STATIC=/home/eldarian/Документы/chess_qt
 
 
 ########################
@@ -421,7 +415,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

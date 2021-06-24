@@ -52,7 +52,7 @@ LMainPrivate::LMainPrivate(LMain* wgtMain)
 	game(nullptr),
 	lytMain(new QHBoxLayout),
 	lytMenu(new QVBoxLayout),
-	btnNewGame(new QPushButton(QIcon(QResource("resources.qrc").), "New Game")),
+	btnNewGame(new QPushButton(QIcon(":/LBQueen.png"), "New Game")),
 	btnSaveGame(new QPushButton(QIcon(":/LBElephant.png"), "Save Game")),
 	btnLoadGame(new QPushButton(QIcon(":/LBHorse.png"), "Load Game")),
 	btnOptions(new QPushButton(QIcon(":/LBRook.png"), "Options")),
@@ -107,7 +107,7 @@ LMain::LMain(QWidget* widget)
 	m->lytMenu->addWidget(m->teGameDesc);
 
 	setWindowTitle("Chess by Eldarian Studio");
-	setWindowIcon(QIcon(":/LBKing.png"));
+	setWindowIcon(QPixmap(":/LBKing.png").scaled(QSize(128, 128)));
 	m->btnSaveGame->setVisible(false);
 
 	connect(m->btnNewGame, SIGNAL(clicked()), SLOT(slotNewGame()));

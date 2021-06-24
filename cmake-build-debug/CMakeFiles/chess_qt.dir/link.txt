@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/chess_qt.dir/main.cpp.o -o chess_qt  -Wl,-rpath,/home/eldarian/Qt/6.1.1/gcc_64/lib view_qt/libview_qt.a /home/eldarian/Qt/6.1.1/gcc_64/lib/libQt6Widgets.so.6.1.1 /home/eldarian/Qt/6.1.1/gcc_64/lib/libQt6Gui.so.6.1.1 /home/eldarian/Qt/6.1.1/gcc_64/lib/libQt6Core.so.6.1.1 -pthread /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 

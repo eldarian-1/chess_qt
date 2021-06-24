@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_77fe7/fast && /usr/bin/make  -f CMakeFiles/cmTC_77fe7.dir/build.make CMakeFiles/cmTC_77fe7.dir/build
+Run Build Command(s):/usr/bin/make cmTC_868d7/fast && /usr/bin/make  -f CMakeFiles/cmTC_868d7.dir/build.make CMakeFiles/cmTC_868d7.dir/build
 make[1]: вход в каталог «/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_77fe7.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_77fe7.dir/src.c.o -c /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_77fe7
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77fe7.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_77fe7.dir/src.c.o -o cmTC_77fe7 
-/usr/bin/ld: CMakeFiles/cmTC_77fe7.dir/src.c.o: в функции «main»:
+Building C object CMakeFiles/cmTC_868d7.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_868d7.dir/src.c.o -c /home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_868d7
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_868d7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_868d7.dir/src.c.o -o cmTC_868d7 
+/usr/bin/ld: CMakeFiles/cmTC_868d7.dir/src.c.o: в функции «main»:
 src.c:(.text+0x46): неопределённая ссылка на «pthread_create»
 /usr/bin/ld: src.c:(.text+0x52): неопределённая ссылка на «pthread_detach»
 /usr/bin/ld: src.c:(.text+0x5e): неопределённая ссылка на «pthread_cancel»
 /usr/bin/ld: src.c:(.text+0x6f): неопределённая ссылка на «pthread_join»
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_77fe7.dir/build.make:106: cmTC_77fe7] Ошибка 1
+make[1]: *** [CMakeFiles/cmTC_868d7.dir/build.make:106: cmTC_868d7] Ошибка 1
 make[1]: выход из каталога «/home/eldarian/Документы/chess_qt/cmake-build-debug/CMakeFiles/CMakeTmp»
-make: *** [Makefile:140: cmTC_77fe7/fast] Ошибка 2
+make: *** [Makefile:140: cmTC_868d7/fast] Ошибка 2
 
 
 Source file was:

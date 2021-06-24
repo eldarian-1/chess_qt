@@ -130,19 +130,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named chess_qt
-
-# Build rule for target.
-chess_qt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chess_qt
-.PHONY : chess_qt
-
-# fast build rule for target.
-chess_qt/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_qt.dir/build.make CMakeFiles/chess_qt.dir/build
-.PHONY : chess_qt/fast
-
-#=============================================================================
 # Target rules for targets named view_qt
 
 # Build rule for target.
@@ -152,7 +139,7 @@ view_qt: cmake_check_build_system
 
 # fast build rule for target.
 view_qt/fast:
-	$(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt.dir/build.make view_qt/CMakeFiles/view_qt.dir/build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/build
 .PHONY : view_qt/fast
 
 #=============================================================================
@@ -165,35 +152,251 @@ view_qt_autogen: cmake_check_build_system
 
 # fast build rule for target.
 view_qt_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f view_qt/CMakeFiles/view_qt_autogen.dir/build.make view_qt/CMakeFiles/view_qt_autogen.dir/build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt_autogen.dir/build.make CMakeFiles/view_qt_autogen.dir/build
 .PHONY : view_qt_autogen/fast
 
-main.o: main.cpp.o
+view_qt/LConfirm.o: view_qt/LConfirm.cpp.o
 
-.PHONY : main.o
+.PHONY : view_qt/LConfirm.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_qt.dir/build.make CMakeFiles/chess_qt.dir/main.cpp.o
-.PHONY : main.cpp.o
+view_qt/LConfirm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LConfirm.cpp.o
+.PHONY : view_qt/LConfirm.cpp.o
 
-main.i: main.cpp.i
+view_qt/LConfirm.i: view_qt/LConfirm.cpp.i
 
-.PHONY : main.i
+.PHONY : view_qt/LConfirm.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_qt.dir/build.make CMakeFiles/chess_qt.dir/main.cpp.i
-.PHONY : main.cpp.i
+view_qt/LConfirm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LConfirm.cpp.i
+.PHONY : view_qt/LConfirm.cpp.i
 
-main.s: main.cpp.s
+view_qt/LConfirm.s: view_qt/LConfirm.cpp.s
 
-.PHONY : main.s
+.PHONY : view_qt/LConfirm.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chess_qt.dir/build.make CMakeFiles/chess_qt.dir/main.cpp.s
-.PHONY : main.cpp.s
+view_qt/LConfirm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LConfirm.cpp.s
+.PHONY : view_qt/LConfirm.cpp.s
+
+view_qt/LDesk.o: view_qt/LDesk.cpp.o
+
+.PHONY : view_qt/LDesk.o
+
+# target to build an object file
+view_qt/LDesk.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LDesk.cpp.o
+.PHONY : view_qt/LDesk.cpp.o
+
+view_qt/LDesk.i: view_qt/LDesk.cpp.i
+
+.PHONY : view_qt/LDesk.i
+
+# target to preprocess a source file
+view_qt/LDesk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LDesk.cpp.i
+.PHONY : view_qt/LDesk.cpp.i
+
+view_qt/LDesk.s: view_qt/LDesk.cpp.s
+
+.PHONY : view_qt/LDesk.s
+
+# target to generate assembly for a file
+view_qt/LDesk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LDesk.cpp.s
+.PHONY : view_qt/LDesk.cpp.s
+
+view_qt/LLoadGame.o: view_qt/LLoadGame.cpp.o
+
+.PHONY : view_qt/LLoadGame.o
+
+# target to build an object file
+view_qt/LLoadGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LLoadGame.cpp.o
+.PHONY : view_qt/LLoadGame.cpp.o
+
+view_qt/LLoadGame.i: view_qt/LLoadGame.cpp.i
+
+.PHONY : view_qt/LLoadGame.i
+
+# target to preprocess a source file
+view_qt/LLoadGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LLoadGame.cpp.i
+.PHONY : view_qt/LLoadGame.cpp.i
+
+view_qt/LLoadGame.s: view_qt/LLoadGame.cpp.s
+
+.PHONY : view_qt/LLoadGame.s
+
+# target to generate assembly for a file
+view_qt/LLoadGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LLoadGame.cpp.s
+.PHONY : view_qt/LLoadGame.cpp.s
+
+view_qt/LMain.o: view_qt/LMain.cpp.o
+
+.PHONY : view_qt/LMain.o
+
+# target to build an object file
+view_qt/LMain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LMain.cpp.o
+.PHONY : view_qt/LMain.cpp.o
+
+view_qt/LMain.i: view_qt/LMain.cpp.i
+
+.PHONY : view_qt/LMain.i
+
+# target to preprocess a source file
+view_qt/LMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LMain.cpp.i
+.PHONY : view_qt/LMain.cpp.i
+
+view_qt/LMain.s: view_qt/LMain.cpp.s
+
+.PHONY : view_qt/LMain.s
+
+# target to generate assembly for a file
+view_qt/LMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LMain.cpp.s
+.PHONY : view_qt/LMain.cpp.s
+
+view_qt/LOptions.o: view_qt/LOptions.cpp.o
+
+.PHONY : view_qt/LOptions.o
+
+# target to build an object file
+view_qt/LOptions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LOptions.cpp.o
+.PHONY : view_qt/LOptions.cpp.o
+
+view_qt/LOptions.i: view_qt/LOptions.cpp.i
+
+.PHONY : view_qt/LOptions.i
+
+# target to preprocess a source file
+view_qt/LOptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LOptions.cpp.i
+.PHONY : view_qt/LOptions.cpp.i
+
+view_qt/LOptions.s: view_qt/LOptions.cpp.s
+
+.PHONY : view_qt/LOptions.s
+
+# target to generate assembly for a file
+view_qt/LOptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LOptions.cpp.s
+.PHONY : view_qt/LOptions.cpp.s
+
+view_qt/LSaveGame.o: view_qt/LSaveGame.cpp.o
+
+.PHONY : view_qt/LSaveGame.o
+
+# target to build an object file
+view_qt/LSaveGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LSaveGame.cpp.o
+.PHONY : view_qt/LSaveGame.cpp.o
+
+view_qt/LSaveGame.i: view_qt/LSaveGame.cpp.i
+
+.PHONY : view_qt/LSaveGame.i
+
+# target to preprocess a source file
+view_qt/LSaveGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LSaveGame.cpp.i
+.PHONY : view_qt/LSaveGame.cpp.i
+
+view_qt/LSaveGame.s: view_qt/LSaveGame.cpp.s
+
+.PHONY : view_qt/LSaveGame.s
+
+# target to generate assembly for a file
+view_qt/LSaveGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/LSaveGame.cpp.s
+.PHONY : view_qt/LSaveGame.cpp.s
+
+view_qt/main.o: view_qt/main.cpp.o
+
+.PHONY : view_qt/main.o
+
+# target to build an object file
+view_qt/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/main.cpp.o
+.PHONY : view_qt/main.cpp.o
+
+view_qt/main.i: view_qt/main.cpp.i
+
+.PHONY : view_qt/main.i
+
+# target to preprocess a source file
+view_qt/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/main.cpp.i
+.PHONY : view_qt/main.cpp.i
+
+view_qt/main.s: view_qt/main.cpp.s
+
+.PHONY : view_qt/main.s
+
+# target to generate assembly for a file
+view_qt/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt/main.cpp.s
+.PHONY : view_qt/main.cpp.s
+
+view_qt_autogen/DGDIJCLRRN/qrc_resources.o: view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.o
+
+.PHONY : view_qt_autogen/DGDIJCLRRN/qrc_resources.o
+
+# target to build an object file
+view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.o
+.PHONY : view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.o
+
+view_qt_autogen/DGDIJCLRRN/qrc_resources.i: view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.i
+
+.PHONY : view_qt_autogen/DGDIJCLRRN/qrc_resources.i
+
+# target to preprocess a source file
+view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.i
+.PHONY : view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.i
+
+view_qt_autogen/DGDIJCLRRN/qrc_resources.s: view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.s
+
+.PHONY : view_qt_autogen/DGDIJCLRRN/qrc_resources.s
+
+# target to generate assembly for a file
+view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.s
+.PHONY : view_qt_autogen/DGDIJCLRRN/qrc_resources.cpp.s
+
+view_qt_autogen/mocs_compilation.o: view_qt_autogen/mocs_compilation.cpp.o
+
+.PHONY : view_qt_autogen/mocs_compilation.o
+
+# target to build an object file
+view_qt_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.o
+.PHONY : view_qt_autogen/mocs_compilation.cpp.o
+
+view_qt_autogen/mocs_compilation.i: view_qt_autogen/mocs_compilation.cpp.i
+
+.PHONY : view_qt_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+view_qt_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.i
+.PHONY : view_qt_autogen/mocs_compilation.cpp.i
+
+view_qt_autogen/mocs_compilation.s: view_qt_autogen/mocs_compilation.cpp.s
+
+.PHONY : view_qt_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+view_qt_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/view_qt.dir/build.make CMakeFiles/view_qt.dir/view_qt_autogen/mocs_compilation.cpp.s
+.PHONY : view_qt_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -204,11 +407,34 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... view_qt_autogen"
-	@echo "... chess_qt"
 	@echo "... view_qt"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... view_qt/LConfirm.o"
+	@echo "... view_qt/LConfirm.i"
+	@echo "... view_qt/LConfirm.s"
+	@echo "... view_qt/LDesk.o"
+	@echo "... view_qt/LDesk.i"
+	@echo "... view_qt/LDesk.s"
+	@echo "... view_qt/LLoadGame.o"
+	@echo "... view_qt/LLoadGame.i"
+	@echo "... view_qt/LLoadGame.s"
+	@echo "... view_qt/LMain.o"
+	@echo "... view_qt/LMain.i"
+	@echo "... view_qt/LMain.s"
+	@echo "... view_qt/LOptions.o"
+	@echo "... view_qt/LOptions.i"
+	@echo "... view_qt/LOptions.s"
+	@echo "... view_qt/LSaveGame.o"
+	@echo "... view_qt/LSaveGame.i"
+	@echo "... view_qt/LSaveGame.s"
+	@echo "... view_qt/main.o"
+	@echo "... view_qt/main.i"
+	@echo "... view_qt/main.s"
+	@echo "... view_qt_autogen/DGDIJCLRRN/qrc_resources.o"
+	@echo "... view_qt_autogen/DGDIJCLRRN/qrc_resources.i"
+	@echo "... view_qt_autogen/DGDIJCLRRN/qrc_resources.s"
+	@echo "... view_qt_autogen/mocs_compilation.o"
+	@echo "... view_qt_autogen/mocs_compilation.i"
+	@echo "... view_qt_autogen/mocs_compilation.s"
 .PHONY : help
 
 
