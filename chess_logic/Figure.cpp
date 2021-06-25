@@ -1,10 +1,10 @@
 #include "Figure.h"
 
-#include "Path.h"
+#include "Structures.h"
 
 Figure::Figure() {}
 
-bool Figure::isPossiblePath(Path *path) {
-    std::set<Path> set = getPathSet(path);
-    return set.find(*path) == set.end();
+bool Figure::isPossiblePath(const Board *board, const Path *path) {
+    std::set<Position> positions = getPossiblePositions(board, path->from);
+    return positions.find(path->to) != positions.end();
 }

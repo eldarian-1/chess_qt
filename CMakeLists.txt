@@ -13,6 +13,7 @@ set(REQUIRED_LIBS_QUALIFIED Qt6::Core Qt6::Gui Qt6::Widgets)
 
 set(VIEW_QT view_qt/main.cpp view_qt/LConfirm.cpp view_qt/LDesk.cpp view_qt/LLoadGame.cpp view_qt/LMain.cpp view_qt/LOptions.cpp view_qt/LSaveGame.cpp view_qt/resources.qrc)
 
+add_subdirectory(chess_logic chess_logic/build)
 add_executable(view_qt ${VIEW_QT})
 
 if (NOT CMAKE_PREFIX_PATH)
@@ -21,4 +22,4 @@ if (NOT CMAKE_PREFIX_PATH)
 endif ()
 
 find_package(Qt${QT_VERSION} COMPONENTS ${REQUIRED_LIBS} REQUIRED)
-target_link_libraries(view_qt ${REQUIRED_LIBS_QUALIFIED})
+target_link_libraries(view_qt chess_logic ${REQUIRED_LIBS_QUALIFIED})

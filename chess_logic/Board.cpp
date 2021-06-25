@@ -1,13 +1,40 @@
 #include "Board.h"
 
-#include "Path.h"
+#include "Structures.h"
 #include "Figure.h"
 
 Board::Board() {
 
 }
 
-bool Board::isPossible(const int &x0, const int &y0, const int &x1, const int &y1) {
-    Path path(x0, y0, x1, y1);
-    return _figures[y0][x0].isPossiblePath(&path);
+bool Board::isPossible(const Path &path) {
+    return _figures[path.from].isPossiblePath(*this, path);
+}
+
+std::set<Position> Board::possiblePositions(const Position &position) {
+    return _figures[position].getPossiblePositions(*this, position);
+}
+
+std::set<Position> Board::kingPositions(const Position &position) {
+    return std::set<Position>();
+}
+
+std::set<Position> Board::queenPositions(const Position &position) {
+    return std::set<Position>();
+}
+
+std::set<Position> Board::knightPositions(const Position &position) {
+    return std::set<Position>();
+}
+
+std::set<Position> Board::rookPositions(const Position &position) {
+    return std::set<Position>();
+}
+
+std::set<Position> Board::bishopPositions(const Position &position) {
+    return std::set<Position>();
+}
+
+std::set<Position> Board::pawnPositions(const Position &position) {
+    return std::set<Position>();
 }

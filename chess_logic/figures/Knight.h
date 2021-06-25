@@ -1,5 +1,8 @@
 #pragma once
 
-class Knight {
-
+class Knight : public Figure {
+public:
+    std::set<Position> getPossiblePositions(const Board &board, const Position &position) override {
+        return board.knightPaths(position);
+    }
 };
